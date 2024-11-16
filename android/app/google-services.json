@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "267714265564",
+    "firebase_url": "https://monitoring-air-quality-f2721-default-rtdb.firebaseio.com",
+    "project_id": "monitoring-air-quality-f2721",
+    "storage_bucket": "monitoring-air-quality-f2721.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267714265564:android:89fff78d2c238022c88f19",
+        "android_client_info": {
+          "package_name": "com.example.monitoring_air"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE27Cj0qXgxzoF2rJ2M-z7r9HmeYbrdG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:267714265564:android:fe2ba9892549f023c88f19",
+        "android_client_info": {
+          "package_name": "com.monitoring_air.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE27Cj0qXgxzoF2rJ2M-z7r9HmeYbrdG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
