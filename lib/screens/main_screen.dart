@@ -22,8 +22,10 @@ class MainScreen extends StatelessWidget {
           body: Center(
             child: ListView(
               shrinkWrap: true,
-              physics: const NeverScrollableScrollPhysics(),
+              // physics: const NeverScrollableScrollPhysics(),
               children: [
+
+                const SizedBox(height: 18,),
                 BorderTemperature(
                     color: appProvider.mainColor,
                     image: appProvider.temperature,
@@ -40,7 +42,7 @@ class MainScreen extends StatelessWidget {
 
                 BorderGas(
                     color: appProvider.mainColor,
-                    image: appProvider.humidity,
+                    image: appProvider.gas,
                 ),
               ],
             ),

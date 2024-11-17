@@ -15,10 +15,12 @@ class AppProvider extends ChangeNotifier {
   TextStyle whiteRoboto14Bold = GoogleFonts.roboto(fontSize: 24, fontWeight: FontWeight.w700, color: Colors.white);
 
   Color mainColor = const Color(0xff003161);
-  Color secondColor = const Color(0xff);
-  Color thirdColor = const Color(0xff);
+  Color secondColor = const Color(0xffFA812F);
+  Color thirdColor = const Color(0xff52B1D2);
+  Color fourthColor = const Color(0xffF5004F);
   String temperature = "images/temperature.png";
   String humidity = "images/humidity.png";
+  String gas = "images/gas.png";
 
   gotoMainScreen({required BuildContext context}){
     Navigator.push(
